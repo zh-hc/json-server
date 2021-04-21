@@ -1,0 +1,26 @@
+{
+  "name": "json-server",
+  "version": "1.0.0",
+  "description": "本地数据接口",
+  "main": "index.js",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "json-server": "json-server --watch db.json",
+    "json:server:remote": "json-server http://jsonplaceholder.typicode.com/db"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zh-hc/json-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zh-hc/json-server/issues"
+  },
+  "homepage": "https://github.com/zh-hc/json-server#readme"
+}
